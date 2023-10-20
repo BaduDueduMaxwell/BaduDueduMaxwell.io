@@ -1,0 +1,14 @@
+@media only screen and (width: 320px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project {
+    width: 80%;
+    background-color: blueviolet;
+    margin-top: 50px;
+  }
+}
