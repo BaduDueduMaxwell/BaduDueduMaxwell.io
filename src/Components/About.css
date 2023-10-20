@@ -1,0 +1,18 @@
+@media only screen and (width: 320px) {
+  .overlay {
+    top: 98%;
+    left: 90%;
+    height: 5px;
+    transform: translate(-25%, -35%);
+  }
+
+  .line-through-1 {
+    text-decoration-color: "#f5c0a2";
+    position: "overlay";
+  }
+
+  .about-info{
+    padding: 20px;
+  }
+}
+
