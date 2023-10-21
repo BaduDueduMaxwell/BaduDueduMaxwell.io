@@ -6,10 +6,13 @@ import medium from "/Users/maxwell/portfolio_kode/src/assets/medium.png";
 import linkedin from "/Users/maxwell/portfolio_kode/src/assets/linkedin.png";
 import twitter from "/Users/maxwell/portfolio_kode/src/assets/twitter.png";
 
-
 function Footer() {
   return (
-    <div className="bg-[#202631] mt-5">
+    <div className="bg-[#e8fdf5]  mt-5 pb-5">
+      <p className="footer-parag ">Designed and built by Maxwell Duedu.</p>
+      <p className="footer-parag pl-5 pr-5">
+        There are many imitations, but this one is mine.
+      </p>
       <div className="pt-5">
         <ul>
           <li>

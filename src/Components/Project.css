@@ -1,4 +1,5 @@
-@media only screen and (width: 320px) {
+/* Media query for small screens (up to 576px) */
+@media (max-width: 576px) {
   .container {
     display: flex;
     justify-content: center;
@@ -11,4 +12,17 @@
     background-color: blueviolet;
     margin-top: 50px;
   }
+}
+
+
+/* Media query for medium screens (577px to 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+}
+
+/* Media query for large screens (769px to 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+}
+
+/* Media query for extra-large screens (above 1200px) */
+@media (min-width: 1201px) {
 }

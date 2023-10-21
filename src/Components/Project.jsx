@@ -13,6 +13,7 @@ function Project() {
         <h1 className="text-2xl font-extrabold relative z-10 pb-4">Projects</h1>
         <div className="overlay absolute inset-7 bg-[#f5c0a2] opacity-100 ml-20 w-auto"></div>
       </div>
+     
       <div className="container">
         <div className="project">
           <motion.img
@@ -29,13 +30,13 @@ function Project() {
           />
         </div>
         <div className="project">
-          <motion.img whileHover={{ scale: 1.1 }} src={afrotour} alt="Proje" />
+          <motion.img whileHover={{ scale: 1.1 }} src={afrotour} alt="Projects" />
         </div>
         <div className="project">
           <motion.img
             whileHover={{ scale: 1.1 }}
             src={kiboNavigator}
-            alt="Internship company Maxwell has worked at."
+            alt="Projects"
           />
         </div>
       </div>
