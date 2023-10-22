@@ -1,4 +1,9 @@
-.footer-parag {
-  font-family: "Caveat", cursive;
-  src: url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+
+
+/* Media query for small screens (up to 576px) */
+@media (max-width: 576px) {
+  .footer-parag {
+    font-family: "Caveat", cursive;
+    src: url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+  }
 }

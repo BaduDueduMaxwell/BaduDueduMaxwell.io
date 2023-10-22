@@ -15,20 +15,20 @@ function Footer() {
       </p>
       <div className="pt-5">
         <ul>
-          <li>
+          <li className="pl-5">
             <img src={doc} className="w-4 h-4" alt="document logo" />
           </li>
-          <li>
+          <li className="pl-5">
             <img src={github} className="w-4 h-4" alt="document logo" />
           </li>
-          <li>
+          <li className="pl-5">
             <img src={twitter} className="w-4 h-4" alt="document logo" />
           </li>
 
-          <li>
+          <li className="pl-5">
             <img src={medium} className="w-4 h-4" alt="document logo" />
           </li>
-          <li>
+          <li className="pl-5">
             <img src={linkedin} className="w-4 h-4" alt="document logo" />
           </li>
         </ul>
