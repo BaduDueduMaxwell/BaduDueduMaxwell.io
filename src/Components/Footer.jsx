@@ -15,21 +15,35 @@ function Footer() {
       </p>
       <div>
         <ul className="icons">
-          <li className="pl-5">
-            <img src={doc} className="w-4 h-4" alt="document logo" />
+          <li>
+            <a href="https://docs.google.com/document/d/1_U5rtzW80YcoXGuDe8EaKZVWiu7H3lLVzkiXVmXYiNs/edit">
+              <img src={doc} className="w-4 h-4  ml-5" alt="document logo" />
+            </a>
           </li>
-          <li className="pl-5">
-            <img src={github} className="w-4 h-4" alt="document logo" />
+          <li>
+            <a href="https://github.com/BaduDueduMaxwell">
+              <img src={github} className="w-4 h-4  ml-5" alt="github logo" />
+            </a>
           </li>
-          <li className="pl-5">
-            <img src={twitter} className="w-4 h-4" alt="document logo" />
+          <li>
+            <a href="https://twitter.com/duedumaxx">
+              <img src={twitter} className="w-4 h-4  ml-5" alt="twitter logo" />
+            </a>
           </li>
 
-          <li className="pl-5">
-            <img src={medium} className="w-4 h-4" alt="document logo" />
+          <li>
+            <a href="https://medium.com/@duedumaxwell43">
+              <img src={medium} className="w-4 h-4  ml-5" alt="medium logo" />
+            </a>
           </li>
-          <li className="pl-5">
-            <img src={linkedin} className="w-4 h-4" alt="document logo" />
+          <li>
+            <a href="https://www.linkedin.com/in/maxwell-duedu-05a026199/">
+              <img
+                src={linkedin}
+                className="w-4 h-4  ml-5"
+                alt="linkedin logo"
+              />
+            </a>
           </li>
         </ul>
       </div>
