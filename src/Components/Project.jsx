@@ -11,10 +11,10 @@ function Project() {
     <div>
       <div className="flex-1 relative">
         <h1 className="text-2xl font-extrabold relative z-10 pb-4">Projects</h1>
-        <div className="overlay absolute inset-7 bg-[#f5c0a2] opacity-100 ml-20 w-auto"></div>
+        <div className="overlay bg-topp absolute inset-7 bg-[#f5c0a2] opacity-100 ml-20 w-30 md:inset-20"></div>
       </div>
-     
-      <div className="container">
+
+      <div className="container-1">
         <div className="project">
           <motion.img
             whileHover={{ scale: 1.1 }}
@@ -30,7 +30,11 @@ function Project() {
           />
         </div>
         <div className="project">
-          <motion.img whileHover={{ scale: 1.1 }} src={afrotour} alt="Projects" />
+          <motion.img
+            whileHover={{ scale: 1.1 }}
+            src={afrotour}
+            alt="Projects"
+          />
         </div>
         <div className="project">
           <motion.img

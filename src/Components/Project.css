@@ -1,6 +1,6 @@
 /* Media query for small screens (up to 576px) */
 @media (max-width: 576px) {
-  .container {
+  .container-1 {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -13,9 +13,19 @@
   }
 }
 
-
 /* Media query for medium screens (577px to 768px) */
 @media (min-width: 577px) and (max-width: 768px) {
+  .container-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project {
+    width: 80%;
+    margin-top: 50px;
+  }
 }
 
 /* Media query for large screens (769px to 992px) */
