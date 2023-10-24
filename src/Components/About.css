@@ -34,6 +34,15 @@
   .about-info {
     padding: 20px;
   }
+
+  .bg-topp {
+    width: 300px;
+    height: 5px;
+  }
+
+  .text-pad {
+    margin: 0 60px;
+  }
 }
 
 /* Media query for large screens (769px to 992px) */
