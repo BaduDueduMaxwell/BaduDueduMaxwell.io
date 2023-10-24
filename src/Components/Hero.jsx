@@ -25,7 +25,7 @@ function Hero() {
           <h6 className="font-thin school">KIBO SCHOOL OF TECHNOLOGY</h6>
         </div>
         <div className="pt-5">
-          <ul className="pad">
+          <ul className="icons">
             <li>
               <img src={doc} className="w-4 h-4  ml-5" alt="document logo" />
             </li>

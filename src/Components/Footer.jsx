@@ -14,7 +14,7 @@ function Footer() {
         There are many imitations, but this one is mine.
       </p>
       <div>
-        <ul className="pad">
+        <ul className="icons">
           <li className="pl-5">
             <img src={doc} className="w-4 h-4" alt="document logo" />
           </li>
