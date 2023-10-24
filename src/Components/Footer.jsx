@@ -13,8 +13,8 @@ function Footer() {
       <p className="footer-parag pl-5 pr-5">
         There are many imitations, but this one is mine.
       </p>
-      <div className="pt-5">
-        <ul>
+      <div>
+        <ul className="pad">
           <li className="pl-5">
             <img src={doc} className="w-4 h-4" alt="document logo" />
           </li>
