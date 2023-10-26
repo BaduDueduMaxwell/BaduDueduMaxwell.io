@@ -141,12 +141,6 @@ p {
 
 /* Media query for medium screens (577px to 768px) */
 @media (min-width: 577px) and (max-width: 768px) {
-  .bg-top {
-    margin: 50px 0 10px 0;
-    width: 200px;
-    padding-left: 300px;
-  }
-
   .flex {
     display: flex;
     flex-direction: row;
@@ -154,7 +148,6 @@ p {
 
   h1 {
     padding: 60px 0 4px 0;
-    color: black;
     text-align: left;
     left: 14%;
   }
@@ -176,11 +169,7 @@ p {
   }
 
   .header__affiliation {
-    margin-bottom: 10px;
-    position: relative;
-    display: table;
     padding: 2px 40px;
-    font-family: "Inconsolata", "Consolas", monospace;
   }
 
   ul {
@@ -199,4 +188,36 @@ p {
 
 /* Media query for extra-large screens (above 1200px) */
 @media (min-width: 1201px) {
+  h1 {
+    padding: 0 100px;
+  }
+
+  h1::after {
+    top: 60%;
+  }
+
+  .header__affiliation {
+    padding: 2px 100px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  li {
+    padding-left: 75px;
+  }
+
+  .header__photo {
+    margin-right: 120px;
+  }
+
+  .header__photo-wrapper::before {
+    left: -20%;
+  }
+
+  .header__photo-wrapper::after {
+    width: 53%;
+  }
 }
