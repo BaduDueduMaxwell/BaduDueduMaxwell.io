@@ -1,3 +1,11 @@
+.about-info {
+  padding: 50px;
+}
+
+.text-pad {
+  margin: 0 30px;
+}
+
 /* Media query for small screens (up to 576px) */
 @media (max-width: 576px) {
   .about-info {
@@ -10,24 +18,8 @@
   .about-info {
     padding: 20px;
   }
-  
+
   .text-pad {
     margin: 0 60px;
   }
-}
-
-/* Media query for large screens (769px to 992px) */
-@media (min-width: 769px) and (max-width: 992px) {
-  .about-info {
-    padding: 50px;
-  }
-
-  .text-pad {
-    margin: 0 30px;
-  }
-
-}
-
-/* Media query for extra-large screens (above 1200px) */
-@media (min-width: 1201px) {
 }
