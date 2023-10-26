@@ -9,6 +9,9 @@ export default {
       external: [
         "/Users/maxwell/portfolio_kode/src/assets/icon.png",
         "/Users/maxwell/portfolio_kode/src/assets/duedu.jpg",
+        "/Users/maxwell/portfolio_kode/src/assets/github.png",
+        "/Users/maxwell/portfolio_kode/src/assets/linkedin.png",
+        "/Users/maxwell/portfolio_kode/src/assets/medium.png",
       ],
     },
   },
