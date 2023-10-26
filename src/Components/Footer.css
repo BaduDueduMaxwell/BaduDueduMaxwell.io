@@ -3,6 +3,12 @@
   src: url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
 }
 
+.icons {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
 /* Media query for small screens (up to 576px) */
 @media (max-width: 576px) {
   .icons {
@@ -14,12 +20,5 @@
 @media (min-width: 577px) and (max-width: 768px) {
   .icons {
     padding-top: 30px;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 992px) {
-  .icons {
-    display: flex;
-    justify-content: center;
   }
 }
