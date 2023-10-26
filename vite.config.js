@@ -6,7 +6,7 @@ export default {
   build: {
     rollupOptions: {
       // Ensure Rollup can resolve image imports
-      external: ["/Users/maxwell/portfolio_kode/src/assets/icon.png"],
+      external: ["/Users/maxwell/portfolio_kode/src/assets/icon.png"],["/Users/maxwell/portfolio_kode/src/assets/duedu.jpg"]
     },
   },
 };
