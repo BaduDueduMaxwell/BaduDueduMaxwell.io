@@ -1,5 +1,5 @@
 import React from "react";
-import "./footer.css";
+import "./Footer.css";
 import icon from "/Users/maxwell/portfolio_kode/src/assets/icon.png";
 import github from "/Users/maxwell/portfolio_kode/src/assets/github.png";
 import medium from "/Users/maxwell/portfolio_kode/src/assets/medium.png";
