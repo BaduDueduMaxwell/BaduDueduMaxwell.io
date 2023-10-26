@@ -6,6 +6,7 @@
   margin: 0 30px;
 }
 
+
 /* Media query for small screens (up to 576px) */
 @media (max-width: 576px) {
   .about-info {
