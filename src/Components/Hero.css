@@ -1,18 +1,106 @@
+.pad {
+  padding: 40px;
+}
+
+h1 {
+  margin-bottom: 10px;
+  position: relative;
+  display: table;
+  padding: 0 10px;
+  color: #052d3f;
+}
+
+h1::after {
+  content: "";
+  background-color: #f5c0a2;
+  height: 10px;
+  position: absolute;
+  top: 75%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.header {
+  display: flex;
+  padding: 60px;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+  align-items: flex-start;
+}
+
+.header__title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.header__photo {
+  max-width: 150px;
+  position: relative;
+  margin-top: 20px;
+  z-index: 1;
+}
+
+.header__photo-wrapper {
+  position: relative;
+}
+
+.header__photo-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -30%;
+  transform: rotate(-45deg);
+  height: 150px;
+  width: 150px;
+  background-color: #bcebd4;
+  /* z-index: -1; */
+}
+
+.header__photo-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 4%;
+  left: 6%;
+  background-color: #f5c0a2;
+  width: 100%;
+  height: 100%;
+  /* z-index: -1; */
+
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.header__affiliation {
+  margin-bottom: 10px;
+  position: relative;
+  display: table;
+  padding: 2px 75px;
+  font-family: "Inconsolata", "Consolas", monospace;
+}
+
+
 /* Media query for small screens (up to 576px) */
 @media (max-width: 576px) {
   .flex {
     flex-direction: column;
+    padding: 0px;
   }
 
   h1 {
     padding-top: 10px;
-    color: black;
   }
-  .headshot {
-    margin-left: 100px;
-    border-radius: 40px;
-    padding: 50px 0;
-    background-color: #e8fdf5;
+
+  .header__title {
+    font-size: 1.5rem;
+    font-weight: bold;
   }
 
   ul {
@@ -21,7 +109,36 @@
   }
 
   li {
-    margin-left: 20px;
+    margin: 0 0 50px 5px;
+    
+  }
+
+  .header__photo-wrapper {
+    position: relative;
+    margin-left: 100px;
+  }
+
+  .header__photo-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -20%;
+    transform: rotate(-45deg);
+    height: 100px;
+    width: 150px;
+    background-color: #bcebd4;
+    /* z-index: -1; */
+  }
+  
+  .header__photo-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 4%;
+    left: 6%;
+    background-color: #f5c0a2;
+    width: 67%;
+    height: 100%;
+    /* z-index: -1; */
   }
 }
 
@@ -45,24 +162,11 @@
     left: 14%;
   }
 
-  .headshot {
-    margin-left: 50px;
-    border-radius: 40px;
-    padding: 50px 0;
-    background-color: #e8fdf5;
-  }
-
   ul {
     display: flex;
     justify-content: space-evenly;
   }
 
-  .slogan,
-  .school {
-    color: black;
-    text-align: left;
-    padding-left: 75px;
-  }
 }
 
 /* Media query for large screens (769px to 992px) */

@@ -1,5 +1,5 @@
 import React from "react";
-import maxwell from "/Users/maxwell/portfolio_kode/src/assets/duedu.jpeg";
+import maxwell from "/Users/maxwell/portfolio_kode/src/assets/duedu.jpg";
 import doc from "/Users/maxwell/portfolio_kode/src/assets/icon.png";
 import github from "/Users/maxwell/portfolio_kode/src/assets/github.png";
 import medium from "/Users/maxwell/portfolio_kode/src/assets/medium.png";
@@ -9,20 +9,18 @@ import "./Hero.css";
 
 function Hero() {
   return (
-    <div className="flex bg-[#e8fdf5]">
+    <div className="flex bg-[#e8fdf5] pad">
       <div className="container">
         <div className="flex-1 relative">
-          <h1 className="text-2xl font-extrabold relative z-10">
-            Maxwell Duedu
-          </h1>
-          <div className="sm:overlay bg-top absolute inset-7 bg-[#f5c0a2] opacity-100 w-40"></div>
-
-          <p className="font-thin slogan">
+          <h1 className="header__title z-10">Maxwell Duedu</h1>
+        </div>
+        <div className="">
+          <p className="font-thin header__affiliation">
             I'm the walking <span>&lt;kode/&gt;</span>{" "}
           </p>
-        </div>
-        <div className="flex-1">
-          <h6 className="font-thin school">KIBO SCHOOL OF TECHNOLOGY</h6>
+          <p className="font-thin header__affiliation">
+            KIBO SCHOOL OF TECHNOLOGY
+          </p>
         </div>
         <div className="pt-5">
           <ul className="icons">
@@ -65,17 +63,14 @@ function Hero() {
       </div>
 
       <div>
-        <div className="flex-1">
-          <img
-            src={maxwell}
-            className="w-40 headshot"
-            alt="an image of Maxwell Duedu"
-          />
-        </div>
         <div>
-          <p className="ml-5 mr-5 pb-3">
-            "Fluent Python is the best book to learn Python"
-          </p>
+          <figure className="header__photo-wrapper">
+            <img
+              src={maxwell}
+              className="header__photo"
+              alt="an image of Maxwell Duedu"
+            />
+          </figure>
         </div>
       </div>
     </div>
