@@ -23,7 +23,7 @@ function Hero() {
           </p>
         </div>
         <div className="pt-5">
-          <ul className="icons">
+          <ul className="icons-hero">
             <li>
               <a href="https://docs.google.com/document/d/1_U5rtzW80YcoXGuDe8EaKZVWiu7H3lLVzkiXVmXYiNs/edit">
                 <img src={doc} className="w-4 h-4  ml-5" alt="document logo" />

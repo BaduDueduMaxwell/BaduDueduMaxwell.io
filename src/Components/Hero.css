@@ -191,6 +191,10 @@ p {
   li {
     margin: 20px;
   }
+
+  .icons-hero {
+    padding: 12px 30px 0 0px;
+  }
 }
 
 /* Media query for extra-large screens (above 1200px) */
