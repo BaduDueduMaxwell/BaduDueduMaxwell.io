@@ -5,7 +5,8 @@ import react from "@vitejs/plugin-react";
 export default {
   build: {
     rollupOptions: {
-      external: ["/Users/maxwell/portfolio_kode/src/assets/duedu.jpg"],
+      // Ensure Rollup can resolve image imports
+      external: ["/Users/maxwell/portfolio_kode/src/assets/icon.png"],
     },
   },
 };

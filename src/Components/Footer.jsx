@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import doc from "/Users/maxwell/portfolio_kode/src/assets/icon.png";
+import icon from "/Users/maxwell/portfolio_kode/src/assets/icon.png";
 import github from "/Users/maxwell/portfolio_kode/src/assets/github.png";
 import medium from "/Users/maxwell/portfolio_kode/src/assets/medium.png";
 import linkedin from "/Users/maxwell/portfolio_kode/src/assets/linkedin.png";
@@ -17,7 +17,7 @@ function Footer() {
         <ul className="icons">
           <li>
             <a href="https://docs.google.com/document/d/1_U5rtzW80YcoXGuDe8EaKZVWiu7H3lLVzkiXVmXYiNs/edit">
-              <img src={doc} className="w-4 h-4  ml-5" alt="document logo" />
+              <img src={icon} className="w-4 h-4  ml-5" alt="document logo" />
             </a>
           </li>
           <li>
