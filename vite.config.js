@@ -1,6 +1,5 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import image from '@rollup/plugin-image';
 
 // https://vitejs.dev/config/
 export default {
@@ -14,8 +13,8 @@ export default {
         "/Users/maxwell/portfolio_kode/src/assets/linkedin.png",
         "/Users/maxwell/portfolio_kode/src/assets/medium.png",
         "/Users/maxwell/portfolio_kode/src/assets/twitter.png",
+        "/Users/maxwell/portfolio_kode/src/assets/project_assets/wewire.png",
       ],
-      plugins: [image()],
     },
   },
 };
