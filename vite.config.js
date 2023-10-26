@@ -12,6 +12,7 @@ export default {
         "/Users/maxwell/portfolio_kode/src/assets/github.png",
         "/Users/maxwell/portfolio_kode/src/assets/linkedin.png",
         "/Users/maxwell/portfolio_kode/src/assets/medium.png",
+        "/Users/maxwell/portfolio_kode/src/assets/twitter.png",
       ],
     },
   },
