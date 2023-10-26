@@ -3,9 +3,8 @@ import "./About.css";
 
 function About() {
   return (
-    <div className="flex-1 relative">
-      <h1 className="text-2xl font-extrabold relative z-10">About</h1>
-      <div className="overlay bg-topp absolute inset-7 bg-[#f5c0a2] opacity-100 ml-20 w-30 md:inset-20"></div>
+    <div className="flex-1 relative mt-20">
+      <h2 className="text-2xl font-extrabold ">About</h2>
       <div className="about-info">
         <p className="text-left text-pad">
           My name is Maxwell, and I am a Software Engineer. Lorem ipsum, dolor
