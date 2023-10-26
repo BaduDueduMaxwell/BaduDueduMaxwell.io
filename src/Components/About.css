@@ -1,17 +1,5 @@
 /* Media query for small screens (up to 576px) */
 @media (max-width: 576px) {
-  .overlay {
-    top: 98%;
-    left: 90%;
-    height: 5px;
-    transform: translate(-25%, -35%);
-  }
-
-  .line-through-1 {
-    text-decoration-color: "#f5c0a2";
-    position: "overlay";
-  }
-
   .about-info {
     padding: 20px;
   }
@@ -19,18 +7,6 @@
 
 /* Media query for medium screens (577px to 768px) */
 @media (min-width: 577px) and (max-width: 768px) {
-  .overlay {
-    top: 38%;
-    left: 20%;
-    height: 10px;
-    transform: translate(-25%, -50%);
-  }
-
-  .line-through-1 {
-    text-decoration-color: "#f5c0a2";
-    position: "overlay";
-  }
-
   .about-info {
     padding: 20px;
   }
