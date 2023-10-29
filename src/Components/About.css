@@ -18,6 +18,9 @@ a {
   .about-info {
     padding: 20px;
   }
+  .text-pad {
+    margin: 0 30px;
+  }
 }
 
 /* Media query for medium screens (577px to 768px) */
