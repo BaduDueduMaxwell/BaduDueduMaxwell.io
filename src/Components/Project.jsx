@@ -1,9 +1,9 @@
 import React from "react";
 import "./Project.css";
-import wewire from "/Users/maxwell/portfolio_kode/src/assets/project_assets/wewire.png";
-import ogateway from "/Users/maxwell/portfolio_kode/src/assets/project_assets/ogateway.png";
-import afrotour from "/Users/maxwell/portfolio_kode/src/assets/project_assets/afrotour.png";
-import kiboNavigator from "/Users/maxwell/portfolio_kode/src/assets/project_assets/kiboNavigator.png";
+import wewire from "./src/assets/project_assets/wewire.png";
+import ogateway from "./src/assets/project_assets/ogateway.png";
+import afrotour from "./src/assets/project_assets/afrotour.png";
+import kiboNavigator from "./src/assets/project_assets/kiboNavigator.png";
 import { motion } from "framer-motion";
 
 function Project() {

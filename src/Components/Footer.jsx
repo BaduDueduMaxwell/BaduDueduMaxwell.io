@@ -1,10 +1,10 @@
 import React from "react";
 import "./Footer.css";
-import icon from "/Users/maxwell/portfolio_kode/src/assets/icon.png";
-import github from "/Users/maxwell/portfolio_kode/src/assets/github.png";
-import medium from "/Users/maxwell/portfolio_kode/src/assets/medium.png";
-import linkedin from "/Users/maxwell/portfolio_kode/src/assets/linkedin.png";
-import twitter from "/Users/maxwell/portfolio_kode/src/assets/twitter.png";
+import icon from "./src/assets/icon.png";
+import github from "./src/assets/github.png";
+import medium from "./src/assets/medium.png";
+import linkedin from "./src/assets/linkedin.png";
+import twitter from "./src/assets/twitter.png";
 
 function Footer() {
   return (
