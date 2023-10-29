@@ -1,9 +1,9 @@
 import React from "react";
 import "./Project.css";
-import wewire from "./src/assets/project_assets/wewire.png";
-import ogateway from "./src/assets/project_assets/ogateway.png";
-import afrotour from "./src/assets/project_assets/afrotour.png";
-import kiboNavigator from "./src/assets/project_assets/kiboNavigator.png";
+import wewire from "../assets/project_assets/wewire.png";
+import ogateway from "../assets/project_assets/ogateway.png";
+import afrotour from "../assets/project_assets/afrotour.png";
+import kiboNavigator from "../assets/project_assets/kiboNavigator.png";
 import { motion } from "framer-motion";
 
 function Project() {

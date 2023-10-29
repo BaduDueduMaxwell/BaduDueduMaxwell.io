@@ -1,10 +1,10 @@
 import React from "react";
 import "./Footer.css";
-import icon from "./src/assets/icon.png";
-import github from "./src/assets/github.png";
-import medium from "./src/assets/medium.png";
-import linkedin from "./src/assets/linkedin.png";
-import twitter from "./src/assets/twitter.png";
+import icon from "../assets/icon.png";
+import github from "../assets/github.png";
+import medium from "../assets/medium.png";
+import linkedin from "../assets/linkedin.png";
+import twitter from "../assets/twitter.png";
 
 function Footer() {
   return (
