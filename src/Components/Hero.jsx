@@ -1,5 +1,5 @@
 import React from "react";
-import maxwell from "./src/assets/duedu.jpg";
+import maxwell from "../assets/duedu.jpg";
 import icon from "./src/assets/icon.png";
 import github from "./src/assets/github.png";
 import medium from "./src/assets/medium.png";
