@@ -15,18 +15,23 @@ function Project() {
 
       <div className="container-1">
         <div className="project">
-          <motion.img
-            whileHover={{ scale: 1.1 }}
-            src={ogateway}
-            alt="Internship company Maxwell has worked at."
-          />
+          <a href="https://ogateway.io/">
+            {" "}
+            <motion.img
+              whileHover={{ scale: 1.1 }}
+              src={ogateway}
+              alt="Internship company Maxwell has worked at."
+            />
+          </a>
         </div>
         <div className="project">
-          <motion.img
-            whileHover={{ scale: 1.1 }}
-            src={wewire}
-            alt="Internship company Maxwell has worked at."
-          />
+          <a href="https://www.wewireafrica.com/">
+            <motion.img
+              whileHover={{ scale: 1.1 }}
+              src={wewire}
+              alt="Internship company Maxwell has worked at."
+            />
+          </a>
         </div>
         <div className="project">
           <motion.img
